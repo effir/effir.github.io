@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Mandatory lorem ipsum test!"
+title:  "Mandatory lorem ipsum"
 date:   1990-10-08
 excerpt_separator: <!--more-->
 tags: test
