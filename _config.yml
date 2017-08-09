@@ -81,7 +81,7 @@ author:
   name             : "Òscar Marín Sala"
   avatar           : "/assets/img/omarin_2016.jpg"
   bio              : "Biologist, bioinformatician, PhD. Coder and data scientist."
-  location         : "Somewhere around Barcelona"
+  location         : "Around Barcelona"
   email            : "oscarmarinsala@gmail.com"
   uri              :
   bitbucket        :
@@ -208,10 +208,10 @@ whitelist:
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /b/categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /b/tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -233,11 +233,14 @@ compress_html:
     envs: development
 
 
+# Timezone
+timezone: Europe/Madrid
+
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/b/"
       type: posts
     values:
       layout: single
@@ -246,3 +249,12 @@ defaults:
       comments: true
       share: true
       related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
