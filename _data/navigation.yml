@@ -1,11 +1,11 @@
 # main links
 main:
     - title: "About"
-      url: /a/
+      url: /_pages/about
     - title: "Treasure"
-      url: /b/
+      url: /_posts/
     - title: "CV"
-      url: /c/
+      url: /_pages/c/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

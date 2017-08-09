@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Mandatory lorem ipsum test!"
 date:   1990-10-08
 excerpt_separator: <!--more-->
