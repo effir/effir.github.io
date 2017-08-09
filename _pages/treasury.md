@@ -1,7 +1,7 @@
 ---
 default: archive 
 permalink: /b/
-title: posts by year
+title: "posts by year"
 author_profile: True
 ---
 {% capture written_year %}'None'{% endcapture %}
