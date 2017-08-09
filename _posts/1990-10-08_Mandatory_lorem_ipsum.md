@@ -4,6 +4,7 @@ title:  "Mandatory lorem ipsum test!"
 date:   1990-10-08
 excerpt_separator: <!--more-->
 tags: test
+permalink: /b/post_test
 ---
 Lorem ipsum dolor sit amet, quo tamquam constituto te. <!--more--> Eu numquam deserunt nec, in vim vocibus definitiones. Ne qui dicat graeco, id vel propriae intellegat. Ad nec dico abhorreant vituperatoribus.
 

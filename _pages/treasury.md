@@ -1,0 +1,4 @@
+---
+default: archive 
+permalink: /b/
+---
