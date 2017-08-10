@@ -1,0 +1,74 @@
+---
+layout: single
+---
+
+<div><h1>{{ cv_name }}</h1></div>
+<div>{{ subtitle }}</div>
+<hr>
+
+{% if experience %}
+  <h2>Experience</h2>
+  <table>
+  {% for j in experience %}
+    <tr>
+        <td>
+                {{ time.start }} -<br>
+                {{ time.end }}
+        </td>
+        <td><dl>
+          <dt>{{ j.job }}</dt>
+          <dd>{{ j.location }}
+          {% if j.group %}
+            at {{ j.group }}
+          {% endif %}
+          <br>
+          <i>{{ j.description }}</i>
+          </dd>
+        </dl></td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endif %}
+{% if formation %}
+  <h2> Formation</h2>
+  <table>
+    {% for f in formation %}
+      <tr>
+        <td>{{ time.start }} -<br>
+            {{ time.end }}
+        </td>
+        <td><dl>
+          <dt>{{ f.degree }}
+                  {{ f.full_degree }}
+          </dt>
+          <dd>{ f.loc }</dd>
+        </dl></td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endif %}
+<hr>
+{% if awards %}
+  <h2>Awards and merits</h2>
+  <table>
+    {% for a in merits %}
+      <tr>
+        <td>{{ time }}</td>
+        <td><dl>
+          <dt>{{ a.award }}</dt>
+          <dd>{{ a.loc }}<br>
+          <i>{{ a.description }}</i></dd>
+        </dl></td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endif %}
+<hr>
+{% if languages %}
+  <h2>Languages</h2>
+  <table>
+    {% for lan in languages}
+      <h4><b>{{ lan.lan }}</b>-{{ lan.lev }}</h4>
+    {% endfor %}
+  </table>
+{% endif %}
