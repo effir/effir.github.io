@@ -1,8 +1,7 @@
 ---
-layout: single
+layout: resumee
 title: Òscar Marín Sala CV
 permalink: /c/
-
 
 cv_name: Òscar Marín Sala
 subtitle: Data Scientist and Bioinformatician
