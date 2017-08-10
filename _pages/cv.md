@@ -88,3 +88,5 @@ languages:
   - lan: French
     lev: Elementary
 ---
+
+CV: alpha version
